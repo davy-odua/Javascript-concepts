@@ -15,13 +15,14 @@
 
 
 //Booleans
-True
+//True or False
 
 
+//Null and undefined
+//Null - Intentional nothing   undefined - absense of value
 
-
-
-
+ 
+//NAN
 
 
 
