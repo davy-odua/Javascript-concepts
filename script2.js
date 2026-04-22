@@ -25,11 +25,15 @@ console.log(AUD);
 //COMPARISON OPERATORS
 // >, <, >=, <=
 
+
+
 //- Equality operator
  // == equal values      === checks for equal values and types
 
-let comparison = '4' !== 4
-console.log(comparison)
+vote = true;
+if (vote === true){
+    console.log("Uko kadi")
+}
 
 
 
