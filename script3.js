@@ -1,4 +1,4 @@
-Conditionals
+//Conditionals
 
 let hasMembership = false;
 let signedIn = true;
@@ -57,9 +57,15 @@ let hasCard = true;
 allowed = age3 > 18 || hasCard ? `You are ${age3} years old. You can enter` : `You are ${age3} years old. You cannot enter`
 console.log(allowed)
 
-let loggedIn = true;
+let loggedIn = false;
 let hasMembership1 = true;
 
-allowed2 = loggedIn && hasMembership1? `Show the video`: `Do not show the video`
+allowed2 = loggedIn && hasMembership1? 
+    `Show the video`
+    :`Do not show the video`
 console.log(allowed2)
+
+
+
+
 
