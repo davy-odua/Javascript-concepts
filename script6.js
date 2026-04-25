@@ -51,18 +51,51 @@
 // console.log(adults3)
 
 
-let people3 = [18, 20, 16, 15, 21]
+// let people3 = [18, 20, 16, 15, 21]
 
-let adults3 = []
+// let adults3 = []
 
-for (i = 0; i < people3.length; i++){
-    if (people3[i] >= 18){
-        adults3.push(people3[i])
-    }
+// for (i = 0; i < people3.length; i++){
+//     if (people3[i] >= 18){
+//         adults3.push(people3[i])
+//     }
+// }
+
+// console.log(adults3)
+
+
+
+
+// let people4 = [18, 20, 16, 15, 21]
+// let adults4 = []
+
+// for (let i = 0; i< people4.length; i++){
+//     if (people4[i] >= 18){
+//         adults4.push(people4[i])
+//     }
+// }
+// console.log(adults4)
+
+
+
+
+//.MAP ARRAY METHOD - used when we want to change every element in our array into something else.
+//It is a non mutating method . It creates a new array and make changes to that cloned array.
+// let array = [1, 2, 3, 4, 5]
+// let newArray = array.map(element => null);
+// console.log(newArray)
+
+//Currency converter
+let usd = [10, 20, 30, 40, 100, 150, 35]
+// let aud = usd.map(element =>  element * 1.5);
+// console.log(aud)
+
+//using for loop and using .push method
+let aud2 = []
+for (i=0; i<usd.length; i++){
+    aud2.push(usd[i] * 1.5)
 }
-
-console.log(adults3)
-
+console.log(aud2 )
 
 
 
