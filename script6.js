@@ -1,20 +1,24 @@
 //ARRAYS - A COMPLEX DATA STRUCTURE
 //Arrays lets you store multiple data values in a ingle variable
-// let food = [20, 15, 10, 30 ]
-// console.log(food[0]) //First element
-// console.log(food[food.length -1]) //Last element
+
+let food = [20, 15, 10, 30 ]
+console.log(food[0]) //First element
+console.log(food[food.length -1]) //Last element
 
 //ARRAY METHODS
-// food.push("Cheese") // - Method used to add elements to our array (array.push())
+food.push("Cheese") // - Method used to add elements to our array (array.push())
 
 //array.filter() - //.filter method - Allows you to pass in a test or a condition
                  /// And then it goes through every single element in our array
                  /// And if the element passes the condition, its going to remain in the array
                  /// And if it does not pass the condition, its going to be kicked out of the array.
-// let filteredArray = food.filter((element) =>  element <= 15);
-// console.log(filteredArray)
 
-// console.log(food)
+
+let filteredArray = food.filter((element) =>  element <= 15);
+console.log(filteredArray)
+
+console.log(food)
+
 
 
 let peoples = [18, 20, 16, 15, 21]
