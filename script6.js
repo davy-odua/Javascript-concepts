@@ -14,29 +14,29 @@
 // let filteredArray = food.filter((element) =>  element <= 15);
 // console.log(filteredArray)
 
-
 // console.log(food)
 
-// let peoples = [18, 20, 16, 15, 21]
 
-// let adults = peoples.filter(element =>  element >= 18);
-// console.log(adults)
+let peoples = [18, 20, 16, 15, 21]
+
+let adults = peoples.filter(element =>  element >= 18);
+console.log(adults)
 
 
 //Looping through arrays using for loops
-// let people = [18, 20, 16, 15, 21];
+let people = [18, 20, 16, 15, 21];
 
-// for (let i=0; i < people.length -1; i++){
-//     console.log(people[i])
-// }
-
+for (let i=0; i < people.length -1; i++){
+    console.log(people[i])
+}
 
 
 //Solving using filter method
-// people3 = [18, 20, 16, 15, 21]
+people3 = [18, 20, 16, 15, 21]
 
-// adults3 = people3.filter(element =>  element >= 18)
-// console.log(adults3)
+adults3 = people3.filter(element =>  element >= 18)
+console.log(adults3)
+
 
 
 
