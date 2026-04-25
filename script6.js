@@ -40,41 +40,41 @@
 
 
 
-// people3 = [18, 20, 16, 15, 21]
+people3 = [18, 20, 16, 15, 21]
 
-// adults3 = people3.filter((element) => {
-//     console.log(element)
-//     if (element >= 18){
-//         return true
-//     }
-// })
-// console.log(adults3)
-
-
-// let people3 = [18, 20, 16, 15, 21]
-
-// let adults3 = []
-
-// for (i = 0; i < people3.length; i++){
-//     if (people3[i] >= 18){
-//         adults3.push(people3[i])
-//     }
-// }
-
-// console.log(adults3)
+adults3 = people3.filter((element) => {
+    console.log(element)
+    if (element >= 18){
+        return true
+    }
+})
+console.log(adults3)
 
 
+let people3 = [18, 20, 16, 15, 21]
+
+let adults3 = []
+
+for (i = 0; i < people3.length; i++){
+    if (people3[i] >= 18){
+        adults3.push(people3[i])
+    }
+}
+
+console.log(adults3)
 
 
-// let people4 = [18, 20, 16, 15, 21]
-// let adults4 = []
 
-// for (let i = 0; i< people4.length; i++){
-//     if (people4[i] >= 18){
-//         adults4.push(people4[i])
-//     }
-// }
-// console.log(adults4)
+
+let people4 = [18, 20, 16, 15, 21]
+let adults4 = []
+
+for (let i = 0; i< people4.length; i++){
+    if (people4[i] >= 18){
+        adults4.push(people4[i])
+    }
+}
+console.log(adults4)
 
 
 
